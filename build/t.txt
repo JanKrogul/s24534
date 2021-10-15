@@ -1,1 +1,0 @@
-a.out  build  s01-hello-me  src  teoria  testtttt.txt
