@@ -1,4 +1,3 @@
-x
 #include <iostream>
 #include <string>
 using namespace std;
@@ -9,7 +8,7 @@ int main( int argc, char * argv[]){
 	}
 	for (auto i = stoi(argv[1]); i > -1; --i )
 	{
-	cout << i  << "\n";
+	cout << i << "...\n";
 	}
 }
 
