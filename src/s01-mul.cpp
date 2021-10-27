@@ -1,5 +1,5 @@
 
-#include <iostream>    // for std::cout, std::cerr, and std::cin
+#include <iostream>
 #include <string>
 
 auto main(int argc, char* argv[]) -> int
