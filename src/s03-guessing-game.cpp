@@ -6,8 +6,8 @@ int liczba, strzal;
 int main()
 {
 	
-	srand(time(NULL));
-	liczba = rand() %100+1;
+	srand(time(NULL));// dzięki temu program za każdym rzem generuje inne liczby
+	liczba = rand() %100+1;s
 	while(strzal != liczba)
 	{
 	cout << "guess: ";
