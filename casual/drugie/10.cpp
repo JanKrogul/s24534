@@ -1,5 +1,5 @@
 #include <iostream>
-auto main (int agrc, char* argv[]) -> int
+auto main (int argc, char* argv[]) -> int
 {
 	auto a = std::stoi(argv[1]);
 std::cout << "Silnia z " << a ;
