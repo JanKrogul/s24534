@@ -10,7 +10,6 @@ int silnia=1,z=1;
 		a--;
 }
 
-//std::cout << silnia << "\n";
 std::cout << " wynosi "<< silnia << "\n" ;
 
 	return 0;
