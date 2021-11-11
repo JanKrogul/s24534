@@ -1,6 +1,6 @@
 #include <iostream>
 
-auto main (int agrc, char* argv[]) -> int
+auto main (int argc, char* argv[]) -> int
 {
 	auto const a = std::stoi(argv[1]); //limit
 	auto const b = std::stoi(argv[2]); //dzielnik
