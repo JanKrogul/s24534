@@ -3,10 +3,10 @@ auto main (int argc, char* argv[]) -> int
 {
 	auto a = std::stoi(argv[1]);
 std::cout << "Silnia z " << a ;
-int silnia=1,z=1;
+int silnia=1,b=1;
 	while(0 < a){
-		silnia = silnia * z;
-		z++;
+		silnia = silnia * b;
+		b++;
 		a--;
 }
 
