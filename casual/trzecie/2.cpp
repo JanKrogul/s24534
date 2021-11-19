@@ -8,7 +8,8 @@ int a, c;
 	std::cout << "wpisz pierwszą pozycję\n";
 	std::cin >> c ;
 	std::cout <<"\n";
-	int A[a]={};
+	int const b =100;
+	int A[b]={};
 
 	for(int i=0; i < a ; i++){
 		A[i] = c+i;
