@@ -2,7 +2,7 @@
 #include <cstdlib>
 auto main (int argc, char* argv[]) -> int
 {
-        auto const a = std::stoi(argv[1]);//std::stoi(argv[1]);//rozmiar tablicy
+        auto const a = std::stoi(argv[1]);//rozmiar tablicy
 	int const b = 50;
 	int tab[b]={};
 	srand( time(NULL));//daje losowe liczby na podstawie pobranego czasu
