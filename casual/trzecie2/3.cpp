@@ -17,8 +17,8 @@ int main()
 			}
 		}
 	}
-	for(int x = 0; x < wielkosc -1;x++){
-		std::cout << b[x] << "\n";
+	for(int i = 0; i < wielkosc -1;i++){
+		std::cout << b[i] << "\n";
 	}
 
 	std::cout<<"\n";
