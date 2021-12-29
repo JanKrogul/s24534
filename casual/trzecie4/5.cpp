@@ -5,8 +5,11 @@ void CopyTableToVector(int tab[100][8]){
 	std::vector <int> wektor;
 	for(int i = 0; i < 100; i++){
 		if(i % 5 == 0){
-			wektor.push_back(tab[i][7]);//wyslanie ostatniego elementu wiersza
-		}				    //podzielnego przez 5 do wektora
+			for(int j = 0; j < 8; j++){
+				int a = tab[i][j];
+				wektor.push_back(a);
+			}
+		}
 	}
 	std::cout << wektor[wektor.size() - 1] << "\n";
 }
