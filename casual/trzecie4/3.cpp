@@ -1,20 +1,17 @@
 #include <iostream>
 #include <string>
-void swap(char** aa ,char** bb){
-        auto pom = **aa;
-        **aa = **bb;
-        **bb = pom;
-        std::cout << "Po zmianie: \n";
-        std::cout << "Pierwszy parametr to: " << *aa << " a drugi parametr to: " << *bb << "\n";
+void swap(int & a ,int & b){
+	int pom = a;
+        a = b;
+        b = pom;
+return;
 }
-
 int main(int argc, char* argv[]){
-	auto a = argv[1];
-	auto b = argv[2];
-	std::cout << "Pierwszy parametr to: " << a << " a drugi parametr to: " << b << "\n";
-	auto aa = &a;
-	auto bb = &b;
-	swap(aa, bb);
+	auto a = std::stoi(argv[1]);
+	auto b = std::stoi(argv[2]);
+	std::cout << "Pierwszy wpisany parametr to: " << a << " a drugi wpisany parametr to: " << b << "\n";
+	swap( a, b);
+	std::cout << "Pierwszy parametr po zmianie to: " << a << " a drugi parametr po zmianie to: " << b << "\n";
 return 0;
 }
 
